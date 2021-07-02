@@ -1,0 +1,5 @@
+maxTicketsavailable=5
+participants=['a','b','c','d','e']
+import random
+n=random.randint(0,maxTicketsavailable-1)
+print(n)
