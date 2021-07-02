@@ -1,0 +1,12 @@
+a=int(input('enter first number:'))
+b=int(input('enter second number:'))
+sum=a+b
+sub=a-b
+mul=a*b
+div1=a//b
+div2=a/b
+print('addition:',sum)
+print('subtraction:',sub)
+print('multiplication:',mul)
+print('integer division:',div1)
+print('floating point division:',div1)
