@@ -1,0 +1,8 @@
+current_ht = int(input("At what altitude(in ft) are your cruising right now\n"))
+
+if (current_ht <= 1000):
+    print("You are safe to land\n")
+elif(5000 > current_ht > 1000):
+    print("Decend to 1000ft\n")
+elif(current_ht >= 5000):
+    print("Go around, attempt re-landing")
