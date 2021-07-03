@@ -1,0 +1,19 @@
+n=int(input("Enter a positive natural number:\n"))
+
+def prime_check(n):
+
+    if (n == 1):
+        return False
+    elif (n ==  2):
+        return True
+    else:
+        for j in range(2,n):
+            if(n % j == 0):
+                return False  
+        return True
+
+
+if (prime_check(n)):
+    print(f"\n{n} is a prime number\n")
+else:
+    print(f"{n} is not a prime number\n")
